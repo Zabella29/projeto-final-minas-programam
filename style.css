@@ -1,0 +1,407 @@
+htm{
+  scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+/*botão top*/
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background:#F3586C;
+  color: #0D142A;
+  bottom: 40px;
+  right: 50px;
+  
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+/*inicio*/
+
+.background{
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo{
+  color: #F1CCC4;
+  font-size: 35px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+span{
+  color: #F3586C;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px  25px;
+}
+
+nav ul li a{
+  color: #F1CCC4;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: #F3586C;
+  transform: .4s;
+}
+
+.btn{
+  background-color: #F3586C;
+  color: #F1CCC4;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 3px solid #F1CCC4;
+    cursor: pointer;
+  }
+
+.Main{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.Main span{
+  color: #F3586C;
+}
+
+h1{
+  color: #F1CCC4;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+
+h4{
+  color: #F3586C;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+h3{
+  color: #F1CCC4;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.Container-btn form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+
+.Container-btn form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #F3586C;
+  border-radius: 30px;
+  outline: none;
+}
+
+.Container-btn form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #F3586C;
+  color: #F1CCC4;
+  box-shadow: 0px 0px 5px #0D142A, 0px 0px 15px #F1CCC4;
+  right: 6px;
+  top: 6px;
+  
+}
+/*sobre mim*/
+
+.background-color-Sobre{
+  background-color: #0D142A;
+  width: 100%;
+  padding: 100px 0px;
+  
+}
+
+.background-color-Sobre img{
+  width: 430px;
+  height: auto;
+}
+
+.Text-sobre{
+  width: 550px;
+}
+
+.main-sobre{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ width: 1130px;
+ margin: 0 auto;
+}
+
+.Text-sobre h2{
+  color: #F1CCC4;
+  font-size: 45px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.Text-sobre h5{
+  color: #F1CCC4;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.Text-sobre p{
+  color: #F1CCC4;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button{
+  background-color: #F1CCC4;
+  color: #F3586C;
+  text-transform: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 40px;
+  transition: .5s;
+  
+}
+
+button:hover{
+  background-color: transparent;
+  border: 3px solid #F1CCC4;
+  cursor: pointer;
+}
+
+/*experiencia*/
+
+.Container-experiencia{
+  background-color: #F1CCC4;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h2{
+  color: #0D142A;
+  font-size: 45px;
+  width: 1130px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.Caixa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  flex-wrap: wrap;
+}
+
+.Card{
+  background: #0D142A;
+  height: 365px;
+  width: 335px;
+  border-radius: 50px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align:  center;
+  
+}
+
+.Card i{
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #F3586C
+}
+
+h5{
+  color: #F1CCC4;
+  font-size: 20px;
+  margin-bottom: 16px;
+
+}
+
+.Paragrafo-button{
+  color: #F1CCC4;
+  font-size: 15px;
+  line-height: 27px;
+  margin-bottom: 35px;
+  text-align: center;
+  margin: auto;
+}
+
+.Paragrafo-button button{
+  margin-top: 25px;
+}
+
+.me-contate {
+  width: 100%;
+  height: 290px;
+  background-color: #F1CCC4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+.me-contate p{
+  color: #F1CCC4;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/*slides*/
+.background-color-slide{
+  background-color: #0D142A;
+}
+
+.slide h1 {
+  color: #F1CCC4;
+  font-size: 45px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.linear{
+  background: #F1CCC4;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+.slide{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+width: 85%;
+margin: auto;
+grid-gap: 15px;
+padding: 30px 0;
+overflow: hidden;
+}
+
+.slide > a{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px #F1CCC4;
+}
+.slide img{
+  width: 100%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s ;
+}
+.slide a:hover img{
+  filter: blur(2px);
+  transform: rotate(10deg) scale(1.3);
+}
+
+
+/*rede social*/
+
+footer{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #F1CCC4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h6{
+  font-size: 35px;
+  color: #0D142A;
+}
+
+footer p{
+  color: #0D142A;
+  font-size: 15px;
+  width: 500px;
+  text-align: center;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  font-style: italic;
+}
+
+.Redes-sociais{
+  display: flex;
+  
+}
+
+.Redes-sociais a{
+  background-color: #0D142A;
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: #F1CCC4;
+  text-decoration: none;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+  transform: scale(1.2);
+  transition: .3s;
+}
+
+.end{
+  position: absolute;
+  color: #F3586C;
+  bottom: 35px;
+  font-size: 14px ;
+}
+
+
